@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\bin\Debug\net6.0\FluxoProcesso.Infra.Data.deps.json
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\bin\Debug\net6.0\FluxoProcesso.Infra.Data.dll
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\bin\Debug\net6.0\FluxoProcesso.Infra.Data.pdb
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\obj\Debug\net6.0\FluxoProcesso.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\obj\Debug\net6.0\FluxoProcesso.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\obj\Debug\net6.0\FluxoProcesso.Infra.Data.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\obj\Debug\net6.0\FluxoProcesso.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\obj\Debug\net6.0\FluxoProcesso.Infra.Data.dll
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\obj\Debug\net6.0\refint\FluxoProcesso.Infra.Data.dll
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\obj\Debug\net6.0\FluxoProcesso.Infra.Data.pdb
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\obj\Debug\net6.0\ref\FluxoProcesso.Infra.Data.dll
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\obj\Debug\net6.0\FluxoProcesso.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\bin\Debug\net6.0\FluxoProcesso.Domain.dll
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\bin\Debug\net6.0\FluxoProcesso.Domain.pdb
+C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Infra.Data\obj\Debug\net6.0\FluxoProcesso.Infra.Data.csproj.CopyComplete
