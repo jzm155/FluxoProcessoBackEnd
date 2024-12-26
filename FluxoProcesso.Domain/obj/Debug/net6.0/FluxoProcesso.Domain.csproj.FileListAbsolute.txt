@@ -9,3 +9,15 @@ C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Domain\obj\Debug\net6.
 C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Domain\obj\Debug\net6.0\refint\FluxoProcesso.Domain.dll
 C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Domain\obj\Debug\net6.0\FluxoProcesso.Domain.pdb
 C:\Users\Usuario\source\repos\FluxoProcesso\FluxoProcesso.Domain\obj\Debug\net6.0\ref\FluxoProcesso.Domain.dll
+D:\Projetos\FluxoProcesso\Back\FluxoProcesso.Domain\bin\Debug\net6.0\FluxoProcesso.Domain.deps.json
+D:\Projetos\FluxoProcesso\Back\FluxoProcesso.Domain\bin\Debug\net6.0\FluxoProcesso.Domain.dll
+D:\Projetos\FluxoProcesso\Back\FluxoProcesso.Domain\bin\Debug\net6.0\FluxoProcesso.Domain.pdb
+D:\Projetos\FluxoProcesso\Back\FluxoProcesso.Domain\obj\Debug\net6.0\FluxoProcesso.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\FluxoProcesso\Back\FluxoProcesso.Domain\obj\Debug\net6.0\FluxoProcesso.Domain.AssemblyInfoInputs.cache
+D:\Projetos\FluxoProcesso\Back\FluxoProcesso.Domain\obj\Debug\net6.0\FluxoProcesso.Domain.AssemblyInfo.cs
+D:\Projetos\FluxoProcesso\Back\FluxoProcesso.Domain\obj\Debug\net6.0\FluxoProcesso.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\FluxoProcesso\Back\FluxoProcesso.Domain\obj\Debug\net6.0\FluxoProcesso.Domain.sourcelink.json
+D:\Projetos\FluxoProcesso\Back\FluxoProcesso.Domain\obj\Debug\net6.0\FluxoProcesso.Domain.dll
+D:\Projetos\FluxoProcesso\Back\FluxoProcesso.Domain\obj\Debug\net6.0\refint\FluxoProcesso.Domain.dll
+D:\Projetos\FluxoProcesso\Back\FluxoProcesso.Domain\obj\Debug\net6.0\FluxoProcesso.Domain.pdb
+D:\Projetos\FluxoProcesso\Back\FluxoProcesso.Domain\obj\Debug\net6.0\ref\FluxoProcesso.Domain.dll

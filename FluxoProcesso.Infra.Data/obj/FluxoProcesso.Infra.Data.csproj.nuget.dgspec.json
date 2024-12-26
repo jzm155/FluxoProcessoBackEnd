@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\FluxoProcesso\\FluxoProcesso.Infra.Data\\FluxoProcesso.Infra.Data.csproj": {}
+    "D:\\Projetos\\FluxoProcesso\\Back\\FluxoProcesso.Infra.Data\\FluxoProcesso.Infra.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\FluxoProcesso\\FluxoProcesso.Domain\\FluxoProcesso.Domain.csproj": {
+    "D:\\Projetos\\FluxoProcesso\\Back\\FluxoProcesso.Domain\\FluxoProcesso.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\FluxoProcesso\\FluxoProcesso.Domain\\FluxoProcesso.Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\FluxoProcesso\\Back\\FluxoProcesso.Domain\\FluxoProcesso.Domain.csproj",
         "projectName": "FluxoProcesso.Domain",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\FluxoProcesso\\FluxoProcesso.Domain\\FluxoProcesso.Domain.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\FluxoProcesso\\FluxoProcesso.Domain\\obj\\",
+        "projectPath": "D:\\Projetos\\FluxoProcesso\\Back\\FluxoProcesso.Domain\\FluxoProcesso.Domain.csproj",
+        "packagesPath": "C:\\Users\\João Vitor\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\FluxoProcesso\\Back\\FluxoProcesso.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\João Vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\source\\repos\\FluxoProcesso\\FluxoProcesso.Infra.Data\\FluxoProcesso.Infra.Data.csproj": {
+    "D:\\Projetos\\FluxoProcesso\\Back\\FluxoProcesso.Infra.Data\\FluxoProcesso.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\FluxoProcesso\\FluxoProcesso.Infra.Data\\FluxoProcesso.Infra.Data.csproj",
+        "projectUniqueName": "D:\\Projetos\\FluxoProcesso\\Back\\FluxoProcesso.Infra.Data\\FluxoProcesso.Infra.Data.csproj",
         "projectName": "FluxoProcesso.Infra.Data",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\FluxoProcesso\\FluxoProcesso.Infra.Data\\FluxoProcesso.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\FluxoProcesso\\FluxoProcesso.Infra.Data\\obj\\",
+        "projectPath": "D:\\Projetos\\FluxoProcesso\\Back\\FluxoProcesso.Infra.Data\\FluxoProcesso.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\João Vitor\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\FluxoProcesso\\Back\\FluxoProcesso.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\João Vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,14 +83,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\source\\repos\\FluxoProcesso\\FluxoProcesso.Domain\\FluxoProcesso.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\source\\repos\\FluxoProcesso\\FluxoProcesso.Domain\\FluxoProcesso.Domain.csproj"
+              "D:\\Projetos\\FluxoProcesso\\Back\\FluxoProcesso.Domain\\FluxoProcesso.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\FluxoProcesso\\Back\\FluxoProcesso.Domain\\FluxoProcesso.Domain.csproj"
               }
             }
           }
@@ -93,6 +100,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -120,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

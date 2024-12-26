@@ -2,6 +2,7 @@ using FluxoProcesso.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using FluxoProcesso.Infra.IOC;
 using Newtonsoft.Json;
+using Microsoft.OpenApi.Models;
 
 namespace FluxoProcesso.API
 {
@@ -22,7 +23,23 @@ namespace FluxoProcesso.API
                 });
 
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(x =>
+            {
+                x.SwaggerDoc("v1", new OpenApiInfo()
+                {
+                    Title = "FluxoProcesso.API",
+                    Version = "v1",
+                    Contact = new OpenApiContact()
+                    {
+                        Name = "JoãoDev",
+                        Email = "joaovitorschmidtmartins@gmail.com"
+                    }
+                });
+
+                var xmlFile = "FluxoProcesso.API.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                x.IncludeXmlComments(xmlPath);
+            });
 
             WebApplication app = builder.Build();
 

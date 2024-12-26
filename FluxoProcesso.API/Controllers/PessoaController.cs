@@ -6,7 +6,6 @@ namespace FluxoProcesso.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Consumes(contentType: "application/json")]
     public class PessoaController : ControllerBase
     {
         private readonly IPessoaService _pessoaService;
@@ -16,6 +15,14 @@ namespace FluxoProcesso.API.Controllers
             _pessoaService = pessoaService;
         }
 
+        /// <summary>
+        /// Consultar pessoa pelo Código
+        /// </summary>
+        /// <remarks></remarks>
+        /// <param name="id">Id da pessoa</param>
+        /// <returns>Pessoa selecionada</returns>
+        /// <response code="200">Consultado com sucesso</response>
+        /// <response code="400">Pessoa Não encontrado</response>
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -32,7 +39,13 @@ namespace FluxoProcesso.API.Controllers
                 return BadRequest(ex);
             }
         }
-
+        /// <summary>
+        /// Consultar todas as pessoas
+        /// </summary>
+        /// <remarks></remarks>
+        /// <returns>Pessoa selecionada</returns>
+        /// <response code="200">Consultado com sucesso</response>
+        /// <response code="400">Pessoas Não encontradas</response>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -53,6 +66,13 @@ namespace FluxoProcesso.API.Controllers
             }
         }
 
+        /// <summary>
+        /// Cadastrar Pessoa
+        /// </summary>
+        /// <remarks></remarks>
+        /// <param name="dto">Dados da pessoa</param>
+        /// <response code="204">Cadastrado com sucesso</response>
+        /// <response code="400">Erro ao cadastrar a pessoa</response>
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -69,7 +89,13 @@ namespace FluxoProcesso.API.Controllers
                 return BadRequest(ex);
             }
         }
-
+        /// <summary>
+        /// Atualizar registro de pessoa
+        /// </summary>
+        /// <remarks></remarks>
+        /// <param name="dto">Novos dados da pessoa</param>
+        /// <response code="204">Atualizado com sucesso</response>
+        /// <response code="400">Erro ao atualizar a pessoa</response>
         [HttpPut]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -87,6 +113,13 @@ namespace FluxoProcesso.API.Controllers
             }
         }
 
+        /// <summary>
+        /// Excluir pessoa
+        /// </summary>
+        /// <remarks></remarks>
+        /// <param name="id">Id da pessoa</param>
+        /// <response code="204">Deletado com sucesso</response>
+        /// <response code="400">Erro ao excluir pessoa</response>
         [HttpDelete("id")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]

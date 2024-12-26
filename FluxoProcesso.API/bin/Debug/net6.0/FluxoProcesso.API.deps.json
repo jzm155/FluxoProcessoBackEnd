@@ -550,12 +550,18 @@
           "FluxoProcesso.Domain": "1.0.0"
         },
         "runtime": {
-          "FluxoProcesso.Application.dll": {}
+          "FluxoProcesso.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "FluxoProcesso.Domain/1.0.0": {
         "runtime": {
-          "FluxoProcesso.Domain.dll": {}
+          "FluxoProcesso.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "FluxoProcesso.Infra.Data/1.0.0": {
@@ -564,7 +570,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.28"
         },
         "runtime": {
-          "FluxoProcesso.Infra.Data.dll": {}
+          "FluxoProcesso.Infra.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "FluxoProcesso.Infra.IOC/1.0.0": {
@@ -575,7 +584,10 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
         },
         "runtime": {
-          "FluxoProcesso.Infra.IOC.dll": {}
+          "FluxoProcesso.Infra.IOC.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

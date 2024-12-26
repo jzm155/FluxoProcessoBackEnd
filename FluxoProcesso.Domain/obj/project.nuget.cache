@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CCSpQUE2R0FR2j1l3T6Ws/h6OkhmoNDPynnU8iac4NtgIW7mhmnyjaALimql1imJA3aGWfCPCHyEpQxaJbZ7iQ==",
+  "dgSpecHash": "Vh7KYzbDnUM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\FluxoProcesso\\FluxoProcesso.Domain\\FluxoProcesso.Domain.csproj",
+  "projectFilePath": "D:\\Projetos\\FluxoProcesso\\Back\\FluxoProcesso.Domain\\FluxoProcesso.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
